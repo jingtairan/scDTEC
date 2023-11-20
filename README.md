@@ -18,13 +18,34 @@ Cell clustering plays a crucial role in the analysis of single-cell Assay for Tr
 Due to the capacity limiation of Github, we put the relevant files (all datasets, model PT files and latent results) in our <a href="">FigShare</a>. All source code, data and model are open source and can be downloaded from GitHub or any other processes.
 
 # System Requirments
+## Hardware requirements
+`scDTEC` package requires only a standard computer with enough RAM to support the in-memory operations.
+
+## Software requirenebts
+### OS Requirments
+This package is supported for *Linux*. The package has been tested on the following systems:
++ Linux: Ubuntu 20.04
+
+### Python Dependencies
+`scDTEC` mainly depends on the Python scientific stack.
+```
+numpy
+annadata
+scipy
+scanpy
+scikit-learn
+pytorch
+dgl
+munkres
+```
+For specific setting, please see <a href="">requirements</a> or <a href="">yml</a>.
 
 # Installation Guide
 
 # Usage
 
 # Data Availability
-All supporting source code and data can be downloaded from <a href="https://github.com/jingtairan/scDTEC">here</a> and <a href="">FigShare</a>.
+All supporting source code and data can be downloaded from <a href="">here</a> and <a href="">FigShare</a>.
 
 # License
 This project is covered under the **MIT License**.
