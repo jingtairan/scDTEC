@@ -16,7 +16,7 @@ Cell clustering plays a crucial role in the analysis of single-cell Assay for Tr
 
 ## NOTICE
 
-Due to the capacity limiation of Github, we put the relevant files (all datasets, model PT files and latent results) in our `<a href="https://figshare.com/articles/dataset/scDTEC/24591390">`FigShare`</a>`. All source code, data and model are open source and can be downloaded from GitHub or any other processes.
+Due to the capacity limiation of Github, we put the relevant files (all datasets, model PT files and latent results) in our <a href="https://figshare.com/articles/dataset/scDTEC/24591390">FigShare</a>. All source code, data and model are open source and can be downloaded from GitHub or any other processes.
 
 # System Requirments
 
@@ -47,7 +47,7 @@ dgl
 munkres
 ```
 
-For specific setting, please see `<a href="https://github.com/jingtairan/scDTEC/blob/master/requirements.txt">`requirements`</a>` or `<a href="https://github.com/jingtairan/scDTEC/blob/master/requirements.yml">`yml`</a>`.
+For specific setting, please see <a href="https://github.com/jingtairan/scDTEC/blob/master/requirements.txt">requirements</a> or <a href="https://github.com/jingtairan/scDTEC/blob/master/requirements.yml">yml</a>.
 
 # Installation Guide:
 
@@ -86,7 +86,7 @@ The above are examples of training a model with the Forebrain dataset as an exam
 
 # Data Availability
 
-All supporting source code and data can be downloaded from `<a href="https://github.com/jingtairan/scDTEC">`here`</a>` and `<a href="https://figshare.com/articles/dataset/scDTEC/24591390">`FigShare`</a>`.
+All supporting source code and data can be downloaded from <a href="https://github.com/jingtairan/scDTEC">here</a> and <a href="https://figshare.com/articles/dataset/scDTEC/24591390">FigShare</a>.
 
 # License
 
