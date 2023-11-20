@@ -1,0 +1,6 @@
+CUDA_VISIBLE_DEVICES=0 nohup python SCALE.py -d GM12878vsHEK -k 2 --min_peaks 2 --min_cells 10 --latent 16 --hidden_dim 64 --rep_dim 32 --proj_dim 8 --lr 0.00022 > scDGEC_best_final_GM12878vsHEK_output_file.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=1 nohup python SCALE.py -d GM12878vsHL -k 2 --min_peaks 2 --min_cells 10 --latent 16 --hidden_dim 64 --rep_dim 32 --proj_dim 8 --type_learner 'att' > scDGEC_best_final_GM12878vsHL_output_file.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=2 nohup python SCALE.py -d InSilico -k 6 --min_peaks 2 --min_cells 10 --latent 16 --hidden_dim 64 --rep_dim 32 --proj_dim 8 --lr 0.00022 > scDGEC_best_final_InSilico_output_file.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python SCALE.py -d Leukemia -k 6 --min_peaks 2 --min_cells 5 --latent 16 --hidden_dim 64 --rep_dim 32 --proj_dim 8 --lr 0.00022 > scDGEC_best_final_Leukemia_output_file.txt 2>&1 &
+#CUDA_VISIBLE_DEVICES=3 nohup python SCALE.py -d Splenocyte -k 12 --min_peaks 0 --min_cells 0 --latent 16 --hidden_dim 64 --rep_dim 32 --proj_dim 8 --lr 0.0002 --knn_k 30 > scDGEC_knn30_Splenocyte_output_file.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=1 nohup python SCALE.py -d Forebrain_new -k 6 --min_peaks 2 --min_cells 50 --latent 16 --hidden_dim 64 --rep_dim 32 --proj_dim 8 --lr 0.00022 --alpha 0.1 > scDGEC_alpha0.1_Forebrain_new_output_file.txt 2>&1 &
