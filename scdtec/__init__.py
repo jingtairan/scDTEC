@@ -343,6 +343,6 @@ def scDTEC_function(
     
     if outdir:
         #这里需要修改名字
-        adata.write(outdir+'scDGEC_.h5ad'.format(dataset), compression='gzip')
+        adata.write(outdir+'scDGEC_{}_adata.h5ad'.format(dataset), compression='gzip')
     
     return adata
