@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
 - [System Requirments](#system-requirments)
-- [Environment init Guide](#installation-guide)
+- [Environment init Guide](#environment-init-guide)
 - [Usage](#Usage)
 - [Data Availability](#data-availability)
 - [License](#license)
