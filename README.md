@@ -1,10 +1,10 @@
 # Unsupervised Deep Topology Embedded Characterization of Single-Cell Chromatin Accessibility Profiles
 
-`scDTEC` is a python package for classifying cell clusters based on chromatin accessibility from scATAC-seq using a deep clustering model based on graph neural networks.
+`scDTEC` is a model for classifying cell clusters based on chromatin accessibility from scATAC-seq using a deep clustering model based on graph neural networks.
 
 - [Overview](#overview)
 - [System Requirments](#system-requirments)
-- [Installation Guide](#installation-guide)
+- [Environment init Guide](#installation-guide)
 - [Usage](#Usage)
 - [Data Availability](#data-availability)
 - [License](#license)
@@ -49,7 +49,7 @@ munkres
 
 For specific setting, please see <a href="https://github.com/jingtairan/scDTEC/blob/master/requirements.txt">requirements</a> or <a href="https://github.com/jingtairan/scDTEC/blob/master/requirements.yml">yml</a>.
 
-# Installation Guide:
+# Environment init Guide:
 
 ### We recommend using a conda environment to build scDTEC.
 
